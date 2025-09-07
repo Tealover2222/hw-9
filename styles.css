@@ -1,0 +1,129 @@
+:root {
+  --dark: #2e2f42;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #434455;
+  --accent: #4d5ae5;
+  --accent-hover: #404bbf;
+  --bg-light: #f4f4fd;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--black);
+}
+
+header {
+  background: var(--white);
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logo span {
+  color: var(--accent);
+}
+
+.contacts {
+  display: flex;
+  gap: 20px;
+}
+
+.contacts .email {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contacts .phone {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.hero {
+  background: var(--dark);
+  color: var(--white);
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: var(--accent);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: var(--accent-hover);
+}
+
+
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 60px 0;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.team {
+  background: var(--bg-light);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.team h2 {
+  margin-bottom: 40px;
+}
+
+.team-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+footer {
+  background: var(--dark);
+  color: var(--white);
+  text-align: left;
+  padding: 40px 0;
+}
+
+footer .logo {
+  color: var(--white);
+}
+
+footer p,
+footer a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+}
